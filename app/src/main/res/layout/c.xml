@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_centerHorizontal="true"
+		android:layout_width="match_parent"
+		android:id="@+id/cLinearLayout1"
+		android:orientation="horizontal"
+		android:layout_marginTop="50px"
+		android:layout_height="52dp"
+		android:gravity="center">
+
+		<Button
+			android:background="@drawable/btn_pressed"
+			android:layout_height="100px"
+			android:layout_width="160px"
+			android:textSize="35px"
+			android:text="QQ装逼"
+			android:id="@+id/qq"/>
+
+		<Button
+			android:background="@drawable/btn_pressed"
+			android:layout_marginLeft="80px"
+			android:layout_height="100px"
+			android:layout_width="160px"
+			android:id="@+id/chiji"
+			android:textSize="35px"
+			android:text="吃鸡专属"/>
+
+		<Button
+			android:background="@drawable/btn_pressed"
+			android:layout_marginLeft="80px"
+			android:layout_height="100px"
+			android:layout_width="160px"
+			android:id="@+id/zhuomian"
+			android:textSize="35px"
+			android:text="桌面美化"/>
+
+		<Button
+			android:background="@drawable/btn_pressed"
+			android:layout_marginLeft="80px"
+			android:layout_height="100px"
+			android:layout_width="160px"
+			android:id="@+id/meitu"
+			android:textSize="35px"
+			android:text="精品美图"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_below="@id/cLinearLayout1"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginTop="30px"
+		android:layout_height="52dp"
+		android:gravity="center">
+
+		<Button
+			android:background="@drawable/btn_pressed"
+			android:layout_height="100px"
+			android:layout_width="160px"
+			android:textSize="35px"
+			android:text="表白制作"
+			android:id="@+id/bbzz"/>
+
+		<Button
+			android:background="@drawable/btn_pressed"
+			android:layout_marginLeft="80px"
+			android:layout_height="100px"
+			android:layout_width="160px"
+			android:textSize="35px"
+			android:text="视频解析"
+			android:id="@+id/spjx"/>
+
+		<Button
+			android:background="@drawable/btn_pressed"
+			android:layout_marginLeft="80px"
+			android:layout_height="100px"
+			android:layout_width="160px"
+			android:textSize="35px"
+			android:text="按钮"/>
+
+		<Button
+			android:background="@drawable/btn_pressed"
+			android:layout_marginLeft="80px"
+			android:layout_height="100px"
+			android:layout_width="160px"
+			android:textSize="35px"
+			android:text="按钮"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

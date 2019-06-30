@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"	xmlns:tools="http://schemas.android.com/tools"
+	
+	package="com.fang.box" >
+
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /><!--查看网络连接-->
+	<uses-permission android:name="android.permission.INTERNET"/><!--链接网络-->
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+	<application
+		android:sharedUserId="com.fang.box"
+		tools:replace="android:allowBackup"
+		android:allowBackup="false"
+		android:exported="false"
+		android:debuggable="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Qdt"
+            android:label="@string/app_name"
+			android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity       android:name=".a"/>
+		<activity       android:name=".b"/>
+		<activity       android:name=".c"/>
+		<activity       android:name=".d"/>
+		<activity       android:name=".MainActivity"/>
+		<activity       android:name=".chiji"/>
+		<activity       android:name=".zhuomian"/>
+		<activity       android:name=".qq"/>
+		<activity       android:name=".meitu"/>
+		<activity       android:name=".bbzz"/>
+		<activity 		android:name="spjx"/>
+		<activity 		android:name="gxrz"/>
+
+    </application>
+
+</manifest>

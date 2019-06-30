@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<ProgressBar
+		style="?android:attr/progressBarStyleHorizontal"
+		android:progressDrawable="@drawable/jindutiao"
+		android:layout_width="match_parent"
+		android:layout_height="1dip"
+		android:visibility="gone"
+		android:id="@+id/a"/>
+
+	<WebView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_below="@id/a"
+		android:id="@+id/webView"
+		android:text="Text"/>
+
+</RelativeLayout>
+
